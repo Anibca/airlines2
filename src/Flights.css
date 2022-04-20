@@ -1,0 +1,59 @@
+table,thead,th,tbody,tr,td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.table{
+    width: 100%;
+}
+
+
+table{
+    width: 80%;
+    margin: 5rem auto;
+}
+
+thead{
+    background-color: whitesmoke;
+}
+
+th{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+th,td{
+    width: 25%;
+    padding: 1rem;
+    height: auto;
+}
+
+button{
+    width: 80%;
+    background-color: rgb(243, 116, 12);
+    color: white;
+    border: none;
+    height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.pagination{
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prev{
+    width: 45%;
+}
+
+.loading{
+    width: 80%;
+    height: 3rem;
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
